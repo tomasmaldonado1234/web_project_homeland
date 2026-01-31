@@ -1,4 +1,4 @@
-.main{
+.content{
 margin-left: 148px;
 }
 
@@ -61,7 +61,7 @@ color: #FFFFFF;
 
 @media screen and (max-width:768px){
     
-.main{
+.content{
 margin: 0 auto;
 
 
@@ -142,7 +142,7 @@ color: #FFFFFF;
 
 @media screen and (max-width:320px){
 
-.main{
+.content{
 margin: 0 auto;
 }
 
