@@ -1,6 +1,6 @@
 .page{
 width: 1280px;
-height: 2008px;
+height: 6026px;
 background: #2A2C2F;
 display: flex;
 flex-direction: column;
@@ -13,7 +13,7 @@ margin: 0;
 .page{
 
 width: 768px;
-height: 1742px;
+height: 5913px;
 background: #2A2C2F;
 display: flex;
 flex-direction: column;
@@ -27,10 +27,11 @@ margin: 0;
 
 .page{
 width: 320px;
-height: 1705px;
+height: 8432px;
 background: #2A2C2F;
 display: flex;
 flex-direction: column;
 margin: 0;
+
 }
 }
