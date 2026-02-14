@@ -1,3 +1,4 @@
+
 .content__lead{
  
 display: flex;
@@ -40,7 +41,8 @@ color: #FFFFFF;
     height: 615px;
      mix-blend-mode: luminosity;
      background-color:#000000;
-     margin: 0 148px ;
+    
+     margin: 0 auto;
      text-align: center;
 
      
@@ -50,9 +52,10 @@ color: #FFFFFF;
 .content__section{
 display: flex;
 flex-direction: column;
-width: auto;
-height: auto;
-margin: 0 148px ;
+/*width: auto;*/
+/*margin: 0 148px ;*/
+margin: 0 auto;
+max-width: 830px;
 
 
 
@@ -105,11 +108,13 @@ font-size: 16px;
 line-height: 163%;
 color: #FFFFFF;
 }
+
+
 .content__grid{
     display: flex;
     flex-direction: column;
     width: auto;
-    margin: 0 16px;
+    
     
       
 }
@@ -158,6 +163,7 @@ color: #FFFFFF;
 .content__city{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 48px 40px;
     grid-template-areas: 
     " content__CityName content__AutorCity"
     "content__img content__City-description"
@@ -189,7 +195,7 @@ color: #FFFFFF;
     line-height: 22px;
     letter-spacing: 0%;
     color: #FFFFFF;
-    margin: 0 24px
+    
 }
 
 .content__AutorCity::first-line{
@@ -212,7 +218,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     width:auto;
     height: auto;
-    margin: 16px 24px
+    
    
 }
 
@@ -224,7 +230,7 @@ color: #FFFFFF;
     border-radius: 4px;
     padding: 13px 20px;
     gap: 10px;
-    margin-top: 40px;
+   
     box-shadow: 5px 5px 10px 0px #00000040;
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     font-family: Inter;
@@ -279,7 +285,7 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-margin: 0 12px;/*agrgeado*/
+/*margin: 0 12px;/*agrgeado*/
 }
 
 .content__title{
@@ -512,6 +518,8 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
+margin-left: 16px;/*agregado*/
+
 }
 
 .content__title{
@@ -575,7 +583,8 @@ color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    margin: 0 16px;    
+    margin: 0 16px;/*se agrego*/
+       
 }
 
 .content__grid-image{
@@ -587,13 +596,13 @@ color: #FFFFFF;
 
 .content__description{
     display: grid;
-    grid-template-rows: auto ;/*se agrego*/
+    grid-template-rows: auto ;
     grid-template-columns: 1fr;
     width: 100%;
-    margin: 0 auto;
     height: auto;
     gap: 60px;
-    align-self: center;
+    
+    
     
 }
 
@@ -607,6 +616,7 @@ color: #FFFFFF;
     "content__City-description"
     "content__button"
     ;
+   
 }
 
 .content__CityName{
@@ -620,9 +630,12 @@ color: #FFFFFF;
     height: auto;
     width: auto;
     height: 35px;
-    align-content: center;
-    margin-left: 16px;
-    margin-top:16px;
+    margin-left: 16px;/*se agrego*/
+    
+    
+    
+    
+    
     
 }
 
@@ -637,8 +650,11 @@ color: #FFFFFF;
     line-height: 22px;
     letter-spacing: 0%;
     color: #FFFFFF;
-    margin-left: 16px;
-    margin-top: 16px;
+    margin-left: 16px;/*se agrego*/ 
+    margin-top: -90px; /*se agrego*/  
+    
+    
+    
 }
 .content__AutorCity::first-line{
     font-family: Inter;
@@ -657,10 +673,11 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 163%;
     letter-spacing: 0%;
-    height: auto;
     width: auto;
     color: #FFFFFF;
-    margin: 0 auto;
+    margin-left: 9px;
+
+   
 
 }
 
@@ -672,7 +689,6 @@ color: #FFFFFF;
     border-radius: 4px;
     padding: 13px 20px;
     gap: 10px;
-    
     box-shadow: 5px 5px 10px 0px #00000040;
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     font-family: Inter;
@@ -681,7 +697,8 @@ color: #FFFFFF;
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
-    margin:30px auto
+    margin:0 auto
+    
     
 }
 
