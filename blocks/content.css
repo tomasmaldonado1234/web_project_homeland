@@ -589,7 +589,7 @@ color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    margin: 0 16px;/*se agrego*/
+    padding: 0 16px;/*se agrego*/
        
 }
 
