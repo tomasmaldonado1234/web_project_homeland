@@ -518,7 +518,8 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-margin-left: 16px;/*agregado*/
+/*margin-left: 16px;*/
+padding: 0 16px;
 
 }
 
@@ -675,7 +676,7 @@ color: #FFFFFF;
     letter-spacing: 0%;
     width: auto;
     color: #FFFFFF;
-    margin-left: 9px;
+    padding: 0 16px;
 
    
 
