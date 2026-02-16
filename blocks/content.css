@@ -286,6 +286,7 @@ height: auto;
 display: flex;
 flex-direction: column;
 /*margin: 0 12px;/*agrgeado*/
+padding: 0 24px;
 }
 
 .content__title{
@@ -363,6 +364,7 @@ color: #FFFFFF;
     margin: 0 auto;
     column-gap: 8px;
     row-gap: 8px; 
+    padding: 0 24px;
 }
 
 .content__grid-image{
@@ -396,6 +398,7 @@ color: #FFFFFF;
     "content__button content__City-description"
     ;
     
+    
 }
 
 .content__CityName{
@@ -409,6 +412,7 @@ color: #FFFFFF;
     width:auto;
     height: auto;
     align-content: center;
+    margin: 60px 0;
     
 }
 
@@ -444,6 +448,7 @@ color: #FFFFFF;
     width:auto;
     height: auto;
     color: #FFFFFF;
+    padding: 0 24px;
 
 }
 
